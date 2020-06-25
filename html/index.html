@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../img/interrogation.png" type="image/x-icon">
+        <title>Jeu de devinete</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Deviner un nombre</h1>
+            <p>Nous avons généré un nombre aléatoire entre 1 et 100, tentez de le deviner en 5 tours maximum. Pour chaque tentative, nous vous dirons si votre estimation est trop ou pas assez élevée.</p>
+            <div class="form">
+                    <label for="guessField">Entrez votre proposition : </label>
+                    <input type="text" id="guessField" class="guessField">
+                    <input type="submit" value="Envoyer" class="guessSubmit">
+
+                <div id="resultParas">
+                    <p class="guesses"></p>
+                    <p class="lastResult"></p>
+                    <p class="lowOrHi"></p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <p>&copy; 2020 Sagby<p></p>
+            </div>
+        </footer>
+
+        <script src="../js/main.js"></script>
+    </body>
+</html>

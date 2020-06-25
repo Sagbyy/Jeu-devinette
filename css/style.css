@@ -1,0 +1,77 @@
+html {
+    font-family: sans-serif;
+    color: rgb(66, 66, 66);
+
+}
+body {
+
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px black;
+    width: 50%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 300px auto;
+}
+
+.lastResult {
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    padding: 7px;
+}
+
+input[type = "submit"] {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 234, 255);
+    border: rgb(77, 234, 255) solid 1px;
+    outline: none;
+    transition: all 0.2s;
+}
+
+input[type = "submit"]:hover {
+    color: rgb(0, 117, 133);
+    border: 1px solid rgb(0, 117, 133);
+    cursor: pointer;
+}
+
+.resetButton {
+    background-color: white;
+    border: 1px solid rgb(77, 234, 255);
+    padding: 7px;
+    border-radius: 7px;
+    color: rgb(77, 234, 255);
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.resetButton:hover {
+    transform: scale(1.02);
+    color: rgb(0, 117, 133);
+    border: 1px solid rgb(0, 117, 133);
+}
+
+.footer {
+    display: inline-block;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+}
+
+.footer p {
+    color: rgb(214, 214, 214);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
