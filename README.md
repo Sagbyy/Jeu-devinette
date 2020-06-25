@@ -13,4 +13,4 @@ Langages de programmation *et frameworks* :
 ## Projet
 
 En m'aidant avec des tutos j'ai réussis a faire mon premier programme avec ***Javascript***.
-C'est un simple jeu de devinette ^^.
+C'est un simple jeu de devinette. ^^
