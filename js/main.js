@@ -22,7 +22,7 @@ function checkGuess() {
         lastResult.style.backgroundColor = "green";
         lowOrHi.textContent = "";
         setGameOver();
-    } else if (guessCount === 10) {
+    } else if (guessCount === 8) {
         lastResult.textContent = "Vous avez perdu !!!!";
         lowOrHi.textContent = "";
         setGameOver();
